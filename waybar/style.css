@@ -1,0 +1,47 @@
+* {
+  border: none;
+  border-radius: 0;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 14px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: #1e1e2e;
+  color: #cdd6f4;
+}
+
+tooltip {
+  background: #1e1e2e;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #11111b;
+}
+
+#workspaces button {
+  color: #313244;
+  margin: 0 5px;
+  padding: 0;
+}
+
+#workspaces button.active {
+  color: #a6adc8;
+}
+
+#workspaces button.focused {
+  color: #a6adc8;
+}
+
+#workspaces button.urgent {
+  color: red;
+}
+
+#workspaces button:hover {
+  color: #cdd6f4;
+}
+
+#custom-resin, #clock, #battery, #pulseaudio, #network, #workspaces, #tray, #backlight {
+  background: #1e1e2e;
+  padding: 0 5px;
+}
